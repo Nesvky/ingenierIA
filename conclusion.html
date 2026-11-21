@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reflexión y referencias | Ingeniería Inteligente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-glass">
+    <div class="container">
+      <a class="navbar-brand brand" href="index.html"><span class="brand-mark">II</span> INGENIERÍA<span
+          class="brand-accent">INTELIGENTE</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li><a class="nav-link" href="index.html">Inicio</a></li>
+          <li><a class="nav-link" href="fundamentos.html">Fundamentos</a></li>
+          <li><a class="nav-link" href="aplicaciones.html">Aplicaciones</a></li>
+          <li><a class="nav-link" href="control-sat.html">CONTROL-SAT</a></li>
+          <li><a class="nav-link active" href="conclusion.html">Reflexión</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="inner">
+    <section class="pagehero">
+      <div class="container">
+        <div class="kicker">04 / REFLEXIÓN FINAL</div>
+        <h1 class="page-title">¿PODEMOS CONFIAR<br>EN LA <span>IA?</span></h1>
+        <p class="lead-copy">La pregunta no es si la inteligencia artificial es buena o mala. La cuestión es bajo qué
+          condiciones podemos utilizarla, quién responde por sus errores y qué evidencias necesitamos antes de actuar.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="panel"><i class="bi bi-rocket-takeoff"></i>
+              <h3>Oportunidades</h3>
+              <p>Analizar grandes volúmenes de datos, detectar patrones, priorizar tareas y apoyar la eficiencia.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel"><i class="bi bi-shield-exclamation"></i>
+              <h3>Limitaciones</h3>
+              <p>Depende de los datos, puede producir errores y perder rendimiento cuando cambian las condiciones.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel"><i class="bi bi-person-gear"></i>
+              <h3>Responsabilidad</h3>
+              <p>El profesional debe revisar, explicar y fundamentar las decisiones. Una predicción no es una
+                certificación técnica.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section darker">
+      <div class="container">
+        <div class="kicker">PON A PRUEBA TU CRITERIO</div>
+        <h2 class="section-title">Una alerta no es una sentencia.<br><span>¿Cómo debería actuar el ingeniero?</span>
+        </h2>
+        <p class="muted max">Un sistema de visión por computador analiza una fotografía de un puente y señala una zona
+          como posible grieta. La imagen tiene sombras y no permite conocer la profundidad del daño.</p>
+        <div class="panel quiz mt-4">
+          <p class="fw-semibold">¿Cuál sería la respuesta profesional más responsable?</p>
+          <div id="quiz" class="d-grid gap-2">
+            <button class="quiz-option" data-correct="false">A. Cerrar el puente inmediatamente, porque cualquier alerta
+              demuestra que existe un riesgo estructural.</button>
+            <button class="quiz-option" data-correct="true">B. Registrar la alerta, revisar la evidencia y priorizar una
+              inspección técnica con métodos adecuados.</button>
+            <button class="quiz-option" data-correct="false">C. Descartar el resultado, porque una fotografía nunca
+              puede aportar información útil.</button>
+          </div>
+          <p id="feedback" class="mt-3 mb-0 muted" aria-live="polite">Selecciona una respuesta y analiza por qué las
+            otras opciones son insuficientes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker">PREGUNTAS PARA DEBATIR</div>
+        <h2 class="section-title">No hay respuestas <span>automáticas.</span></h2>
+        <p class="muted max">Estas preguntas están pensadas para ir más allá de las definiciones. Cada una exige
+          considerar evidencia, consecuencias, contexto y responsabilidad profesional.</p>
+        <div class="reflection-list mt-4">
+          <article class="reflection-card">
+            <span class="reflection-number">01</span>
+            <div>
+              <h3>¿Quién asume la responsabilidad?</h3>
+              <p>Si un ingeniero sigue la recomendación de un modelo de IA y esa decisión contribuye a una falla que
+                causa daños, ¿cómo deberían distribuirse las responsabilidades entre el profesional, la empresa que
+                implementó el sistema y quienes desarrollaron el modelo?</p>
+            </div>
+          </article>
+          <article class="reflection-card">
+            <span class="reflection-number">02</span>
+            <div>
+              <h3>¿Cuándo es aceptable equivocarse?</h3>
+              <p>En la inspección de un puente, un falso positivo puede provocar costos e intervenciones innecesarias,
+                mientras que un falso negativo puede dejar pasar un daño real. ¿Cómo se determina qué tipo de error es
+                más tolerable y quién tiene autoridad para fijar ese criterio?</p>
+            </div>
+          </article>
+          <article class="reflection-card">
+            <span class="reflection-number">03</span>
+            <div>
+              <h3>¿Puede una predicción ser técnicamente correcta y aun así injusta?</h3>
+              <p>Si un sistema de vigilancia territorial genera más alertas en ciertos barrios porque allí dispone de
+                imágenes más frecuentes o datos de mejor calidad, ¿cómo evitar que esa diferencia termine produciendo
+                controles desiguales o decisiones injustificadas?</p>
+            </div>
+          </article>
+          <article class="reflection-card">
+            <span class="reflection-number">04</span>
+            <div>
+              <h3>¿Qué debe prevalecer cuando las evidencias se contradicen?</h3>
+              <p>Si un modelo señala que una estructura presenta bajo riesgo, pero la inspección en campo encuentra
+                señales preocupantes o la normativa exige una revisión adicional, ¿qué evidencia debe orientar la
+                decisión y cómo debería documentarse el desacuerdo?</p>
+            </div>
+          </article>
+          <article class="reflection-card">
+            <span class="reflection-number">05</span>
+            <div>
+              <h3>¿Cuándo no deberíamos utilizar inteligencia artificial?</h3>
+              <p>Si un método convencional es más sencillo, económico, explicable y suficientemente preciso para
+                resolver un problema, ¿qué justificaría implementar un sistema de IA? ¿Cómo demostrar que la tecnología
+                aporta un beneficio real y no solo complejidad?</p>
+            </div>
+          </article>
+        </div>
+        <div class="warning mt-4"><i class="bi bi-info-circle"></i>Estas preguntas no tienen una única respuesta válida.
+          Una buena argumentación debe reconocer incertidumbres, explicar los criterios utilizados y considerar las
+          consecuencias técnicas, sociales y éticas.</div>
+      </div>
+    </section>
+
+    <section class="section darker">
+      <div class="container">
+        <div class="kicker">FUENTES Y DOCUMENTACIÓN</div>
+        <h2 class="section-title">Referencias <span>bibliográficas.</span></h2>
+        <p class="muted max">Fuentes consultadas para los conceptos, aplicaciones, limitaciones y el caso CONTROL-SAT.
+          Cada referencia respalda únicamente el tema que se indica; no todas describen el sistema CONTROL-SAT.</p>
+        <div class="bibliography mt-4">
+          <article class="source-item"><span>[1]</span>
+            <div>
+              <h3>Alcaldía de Medellín (9 de octubre de 2026).</h3>
+              <p>“Con imágenes satelitales e inteligencia artificial, la Alcaldía de Medellín identifica cambios en el
+                territorio”. Fuente principal para CONTROL-SAT, propósito, estado descrito y cifras del piloto 2025.</p>
+              <a href="https://www.medellin.gov.co/es/sala-de-prensa/noticias/con-imagenes-satelitales-e-inteligencia-artificial-la-alcaldia-de-medellin-identifica-cambios-en-el-territorio/"
+                target="_blank" rel="noopener">Consultar fuente oficial <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[2]</span>
+            <div>
+              <h3>Google for Developers.</h3>
+              <p>“What is Machine Learning?” Definiciones introductorias de ML, modelos, aprendizaje supervisado y no
+                supervisado.</p><a href="https://developers.google.com/machine-learning/intro-to-ml/what-is-ml"
+                target="_blank" rel="noopener">Consultar fuente <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[3]</span>
+            <div>
+              <h3>Google for Developers.</h3>
+              <p>“Machine Learning Glossary”. Glosario de conceptos de aprendizaje automático e inteligencia artificial.
+              </p><a href="https://developers.google.com/machine-learning/glossary" target="_blank"
+                rel="noopener">Consultar fuente <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[4]</span>
+            <div>
+              <h3>IBM Think (Dave Bergmann, actualizado 2 de octubre de 2026).</h3>
+              <p>“¿Qué es el machine learning?”. Explicación de aprendizaje a partir de datos y entrenamiento de
+                modelos.</p><a href="https://www.ibm.com/es-es/think/topics/machine-learning" target="_blank"
+                rel="noopener">Consultar fuente <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[5]</span>
+            <div>
+              <h3>IBM Think (Rina Diane Caballar y Cole Stryker, 17 de septiembre de 2025).</h3>
+              <p>“What is computer vision?”. Definición y descripción de tareas de visión por computador.</p><a
+                href="https://www.ibm.com/think/topics/computer-vision" target="_blank" rel="noopener">Consultar fuente
+                <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[6]</span>
+            <div>
+              <h3>Abdou El-Abbasy, A. A. (2025).</h3>
+              <p>“Artificial intelligence-driven predictive modeling in civil engineering: a comprehensive review”.
+                <em>Journal of Umm Al-Qura University for Engineering and Architecture.</em> Revisión de aplicaciones en
+                varias áreas de ingeniería civil.</p><a href="https://doi.org/10.1007/s43995-025-00166-5"
+                target="_blank" rel="noopener">Consultar artículo <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[7]</span>
+            <div>
+              <h3>Nyokum, T. N. T. y Tamut, Y. T. (24 de junio de 2025).</h3>
+              <p>“Artificial intelligence in civil engineering: emerging applications and opportunities”. <em>Frontiers
+                  in Built Environment.</em> Revisión breve de aplicaciones emergentes.</p><a
+                href="https://doi.org/10.3389/fbuil.2025.1622873" target="_blank" rel="noopener">Consultar artículo <i
+                  class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[8]</span>
+            <div>
+              <h3>Sun, H., Burton, H. V. y Huang, H. (2021).</h3>
+              <p>“Machine learning applications for building structural design and performance assessment:
+                State-of-the-art review”. <em>Journal of Building Engineering, 33</em>, 101816.</p><a
+                href="https://doi.org/10.1016/j.jobe.2020.101816" target="_blank" rel="noopener">Consultar artículo <i
+                  class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[9]</span>
+            <div>
+              <h3>Vogl, G., Cornelius, A. y Jia, X. (2026).</h3>
+              <p>“2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing”. NIST/IOP
+                Publishing. Retos y oportunidades de IA y ML en manufactura.</p><a
+                href="https://doi.org/10.1088/3049-4761/ae5967" target="_blank" rel="noopener">Consultar artículo <i
+                  class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[10]</span>
+            <div>
+              <h3>Dadfarnia, M., Sharp, M. y Herrmann, J. (2025).</h3>
+              <p>“Comprehensive evaluations of condition monitoring-based technologies in industrial maintenance: A
+                systematic review”. NIST. Evaluación de tecnologías de monitoreo de condición en mantenimiento
+                industrial.</p><a
+                href="https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial"
+                target="_blank" rel="noopener">Consultar publicación <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[11]</span>
+            <div>
+              <h3>International Energy Agency (10 de abril de 2025).</h3>
+              <p>“Energy and AI”. Relación entre IA, consumo eléctrico y potencial de transformación del sector
+                energético.</p><a href="https://www.iea.org/reports/energy-and-ai" target="_blank"
+                rel="noopener">Consultar informe <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[12]</span>
+            <div>
+              <h3>International Energy Agency (21 de septiembre de 2026).</h3>
+              <p>“Modernising Grids in the Age of Electricity”. Aplicaciones de herramientas digitales e IA para redes
+                eléctricas.</p><a href="https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity"
+                target="_blank" rel="noopener">Consultar informe <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[13]</span>
+            <div>
+              <h3>Alotaibi, E. y Nassif, N. (18 de noviembre de 2024).</h3>
+              <p>“Artificial intelligence in environmental monitoring: in-depth analysis”. <em>Discover Artificial
+                  Intelligence, 4</em>, 84. Revisión bibliométrica y análisis de aplicaciones en monitoreo ambiental.
+              </p><a href="https://doi.org/10.1007/s44163-024-00198-1" target="_blank" rel="noopener">Consultar artículo
+                <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[14]</span>
+            <div>
+              <h3>Krejcar, O. y Namazi, H. (29 de enero de 2026).</h3>
+              <p>“AI in remote sensing and satellite image processing—a review”. <em>Environmental Earth Sciences,
+                  85</em>, 78. Revisión de IA en teledetección e imágenes satelitales.</p><a
+                href="https://doi.org/10.1007/s12665-025-12798-w" target="_blank" rel="noopener">Consultar artículo <i
+                  class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[15]</span>
+            <div>
+              <h3>“Change Detection Methods for Remote Sensing in the Last Decade: A Comprehensive Review” (27 de junio
+                de 2024).</h3>
+              <p><em>Remote Sensing, 16</em>(13), 2355. Métodos y dificultades de detección de cambios en imágenes
+                remotas.</p><a href="https://doi.org/10.3390/rs16132355" target="_blank" rel="noopener">Consultar
+                artículo <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[16]</span>
+            <div>
+              <h3>National Institute of Standards and Technology (NIST).</h3>
+              <p>“AI Risk Management Framework”. Marco de referencia para gestionar riesgos y promover IA confiable.</p>
+              <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">Consultar
+                marco <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[17]</span>
+            <div>
+              <h3>Tabassi, E. (2023).</h3>
+              <p>“Artificial Intelligence Risk Management Framework (AI RMF 1.0)”. NIST AI 100-1. Atributos de
+                confiabilidad y gestión de riesgos.</p><a href="https://doi.org/10.6028/NIST.AI.100-1" target="_blank"
+                rel="noopener">Consultar publicación <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[18]</span>
+            <div>
+              <h3>NASA Applied Remote Sensing Training Program.</h3>
+              <p>“Limitations of Satellite Data”. Material formativo sobre resolución espacial, temporal y espectral,
+                nubes y limitaciones de observación.</p><a
+                href="https://appliedsciences.nasa.gov/sites/default/files/2020-11/Ag_Training_Part1_FINAL.pdf"
+                target="_blank" rel="noopener">Consultar material <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+          <article class="source-item"><span>[19]</span>
+            <div>
+              <h3>NASA Jet Propulsion Laboratory (2022).</h3>
+              <p>“Earth Science Applications Guidebook”. Ventajas y limitaciones de observaciones satelitales y datos de
+                observación terrestre.</p><a
+                href="https://wwao.jpl.nasa.gov/documents/65/NASA-Earth-Science-Applications-Guidebook-2022.pdf"
+                target="_blank" rel="noopener">Consultar guía <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <p class="bibliography-note mt-4"><i class="bi bi-journal-check"></i> Bibliografía transcrita de la guía
+          ampliada de estudio. Se recomienda consultar las fuentes originales para verificar contexto, alcance y
+          vigencia.</p>
+      </div>
+    </section>
+
+    <section class="section text-center">
+      <div class="container">
+        <h2 class="display-title">EL FUTURO SE<br><span>CONSTRUYE.</span></h2>
+        <p class="muted max mx-auto">La inteligencia artificial amplía nuestras herramientas. El conocimiento, la
+          responsabilidad y el criterio humano convierten esas herramientas en soluciones.</p>
+        <a href="index.html" class="btn btn-neon mt-3">Volver al inicio</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container d-flex justify-content-between flex-wrap gap-2"><span>INGENIERÍA INTELIGENTE /
+        2026</span><span>La tecnología aporta herramientas. El ingeniero aporta criterio.</span></div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

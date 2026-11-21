@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aplicaciones | Ingeniería Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-glass">
+        <div class="container"><a class="navbar-brand brand" href="index.html"><span class="brand-mark">II</span>
+                INGENIERÍA<span class="brand-accent">INTELIGENTE</span></a><button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li><a class="nav-link" href="fundamentos.html">Fundamentos</a></li>
+                    <li><a class="nav-link" href="aplicaciones.html">Aplicaciones</a></li>
+                    <li><a class="nav-link" href="control-sat.html">CONTROL-SAT</a></li>
+                    <li><a class="nav-link" href="conclusion.html">Conclusión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="inner">
+        <section class="pagehero">
+            <div class="container">
+                <div class="kicker">02 / APLICACIONES</div>
+                <h1 class="page-title">UNA TECNOLOGÍA,<br><span>MÚLTIPLES SOLUCIONES.</span></h1>
+                <p class="lead-copy">Selecciona una disciplina para conocer ejemplos de uso de la inteligencia
+                    artificial.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <article class="panel app"><i class="bi bi-buildings"></i>
+                            <div class="kicker">01 / CIVIL</div>
+                            <h2>Ingeniería civil</h2>
+                            <p>Inspección de infraestructura, análisis de imágenes, estimación de demanda y apoyo a la
+                                planificación de obras.</p><button class="btn btn-outline-info btn-sm"
+                                data-bs-toggle="modal" data-bs-target="#m01">Ver ejemplo ↗</button>
+                        </article>
+                    </div>
+                    <div class="col-md-6">
+                        <article class="panel app"><i class="bi bi-gear-wide-connected"></i>
+                            <div class="kicker">02 / INDUSTRIAL</div>
+                            <h2>Ingeniería industrial</h2>
+                            <p>Predicción de fallas en equipos, control de calidad y optimización de procesos
+                                productivos.</p><button class="btn btn-outline-info btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#m02">Ver ejemplo ↗</button>
+                        </article>
+                    </div>
+                    <div class="col-md-6">
+                        <article class="panel app"><i class="bi bi-lightning-charge"></i>
+                            <div class="kicker">03 / ELÉCTRICA</div>
+                            <h2>Ingeniería eléctrica</h2>
+                            <p>Pronóstico de demanda energética, detección de anomalías y gestión de redes.</p><button
+                                class="btn btn-outline-info btn-sm" data-bs-toggle="modal" data-bs-target="#m03">Ver
+                                ejemplo ↗</button>
+                        </article>
+                    </div>
+                    <div class="col-md-6">
+                        <article class="panel app"><i class="bi bi-tree"></i>
+                            <div class="kicker">04 / AMBIENTAL</div>
+                            <h2>Ingeniería ambiental</h2>
+                            <p>Seguimiento de cobertura vegetal, análisis de calidad del aire y monitoreo de cambios
+                                ambientales.</p><button class="btn btn-outline-info btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#m04">Ver ejemplo ↗</button>
+                        </article>
+                    </div>
+                </div>
+                <div class="warning mt-4"><i class="bi bi-lightbulb"></i> La IA aporta análisis y predicciones; no
+                    reemplaza el conocimiento técnico ni la supervisión humana.</div>
+            </div>
+        </section>
+    </main>
+    <div class="modal fade" id="m01" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modaltech">
+                <div class="modal-header">
+                    <h5>Civil: inspección asistida</h5><button class="btn-close btn-close-white"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><b>Problema:</b> Revisar grandes superficies de concreto requiere tiempo.</p>
+                    <p><b>Uso de IA:</b> Visión por computador señala imágenes con patrones similares a grietas.</p>
+                    <p><b>Beneficio:</b> Priorizar zonas para inspección.</p>
+                    <p><b>Límite:</b> los resultados deben validarse con datos y criterio profesional.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="m02" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modaltech">
+                <div class="modal-header">
+                    <h5>Industrial: mantenimiento predictivo</h5><button class="btn-close btn-close-white"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><b>Problema:</b> Una máquina puede fallar y detener la producción.</p>
+                    <p><b>Uso de IA:</b> Analizar vibración, temperatura y registros históricos.</p>
+                    <p><b>Beneficio:</b> Programar revisiones antes de una falla probable.</p>
+                    <p><b>Límite:</b> los resultados deben validarse con datos y criterio profesional.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="m03" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modaltech">
+                <div class="modal-header">
+                    <h5>Eléctrica: pronóstico de demanda</h5><button class="btn-close btn-close-white"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><b>Problema:</b> La demanda cambia según horarios, clima y actividad.</p>
+                    <p><b>Uso de IA:</b> Modelos predictivos estiman el consumo futuro.</p>
+                    <p><b>Beneficio:</b> Apoyar la planificación del sistema.</p>
+                    <p><b>Límite:</b> los resultados deben validarse con datos y criterio profesional.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="m04" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modaltech">
+                <div class="modal-header">
+                    <h5>Ambiental: monitoreo territorial</h5><button class="btn-close btn-close-white"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><b>Problema:</b> Detectar cambios ambientales en áreas extensas es complejo.</p>
+                    <p><b>Uso de IA:</b> Analizar imágenes satelitales y datos geográficos.</p>
+                    <p><b>Beneficio:</b> Priorizar zonas para monitoreo.</p>
+                    <p><b>Límite:</b> los resultados deben validarse con datos y criterio profesional.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container d-flex justify-content-between flex-wrap gap-2"><span>INGENIERÍA INTELIGENTE /
+                2026</span><span>La tecnología aporta herramientas. El ingeniero aporta criterio.</span></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

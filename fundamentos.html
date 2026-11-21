@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fundamentos | Ingeniería Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-glass">
+        <div class="container"><a class="navbar-brand brand" href="index.html"><span class="brand-mark">II</span>
+                INGENIERÍA<span class="brand-accent">INTELIGENTE</span></a><button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li><a class="nav-link" href="fundamentos.html">Fundamentos</a></li>
+                    <li><a class="nav-link" href="aplicaciones.html">Aplicaciones</a></li>
+                    <li><a class="nav-link" href="control-sat.html">CONTROL-SAT</a></li>
+                    <li><a class="nav-link" href="conclusion.html">Conclusión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="inner">
+        <section class="pagehero">
+            <div class="container">
+                <div class="kicker">01 / FUNDAMENTOS</div>
+                <h1 class="page-title">¿QUÉ HAY DETRÁS DE LA<br><span>INTELIGENCIA ARTIFICIAL?</span></h1>
+                <p class="lead-copy">Una introducción visual a los conceptos que permiten que una máquina analice
+                    información y genere predicciones.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="panel h-100">
+                            <div class="kicker">IDEA CENTRAL</div>
+                            <h2 class="section-title">Aprender a partir de <span>datos.</span></h2>
+                            <p>La inteligencia artificial desarrolla sistemas capaces de realizar tareas que normalmente
+                                requieren capacidades asociadas con la inteligencia humana, como reconocer patrones,
+                                comprender lenguaje o apoyar decisiones.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="concept"><b>IA</b>
+                            <div>
+                                <h3>Inteligencia artificial</h3>
+                                <p>Campo general de sistemas que realizan tareas inteligentes.</p>
+                            </div>
+                        </div>
+                        <div class="concept"><b>ML</b>
+                            <div>
+                                <h3>Aprendizaje automático</h3>
+                                <p>Modelos que identifican patrones a partir de datos.</p>
+                            </div>
+                        </div>
+                        <div class="concept"><b>DL</b>
+                            <div>
+                                <h3>Aprendizaje profundo</h3>
+                                <p>Aprendizaje automático basado en redes neuronales profundas.</p>
+                            </div>
+                        </div>
+                        <div class="concept"><b>CV</b>
+                            <div>
+                                <h3>Visión por computador</h3>
+                                <p>Técnicas para analizar imágenes y videos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section darker">
+            <div class="container">
+                <div class="kicker">EL PROCESO</div>
+                <h2 class="section-title">De los datos a una <span>predicción.</span></h2>
+                <p class="muted">Selecciona cada etapa para entender el flujo general.</p>
+                <div class="row g-2 mt-3" id="steps">
+                    <div class="col-6 col-lg-3"><button class="step active" data-n="0"><i
+                                class="bi bi-collection"></i>Datos</button></div>
+                    <div class="col-6 col-lg-3"><button class="step" data-n="1"><i
+                                class="bi bi-sliders"></i>Entrenamiento</button></div>
+                    <div class="col-6 col-lg-3"><button class="step" data-n="2"><i class="bi bi-cpu"></i>Modelo</button>
+                    </div>
+                    <div class="col-6 col-lg-3"><button class="step" data-n="3"><i
+                                class="bi bi-graph-up"></i>Predicción</button></div>
+                </div>
+                <div class="panel mt-3" aria-live="polite">
+                    <div class="kicker" id="stepNo">ETAPA 01</div>
+                    <h3 id="stepTitle">Datos: la materia prima</h3>
+                    <p id="stepText" class="mb-0">Se recopilan fotografías, mediciones, registros de sensores o
+                        información histórica. La calidad de los datos influye directamente en los resultados.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Ejemplo: detectar <span>grietas.</span></h2>
+                <p class="muted max">Un modelo de visión por computador puede entrenarse con imágenes etiquetadas de
+                    superficies con y sin grietas. Al recibir una imagen nueva, estima si encuentra patrones compatibles
+                    con una grieta.</p>
+                <div class="warning mt-4"><i class="bi bi-exclamation-triangle"></i> La predicción no confirma por sí
+                    sola un daño estructural. Se requiere inspección y evaluación profesional.</div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container d-flex justify-content-between flex-wrap gap-2"><span>INGENIERÍA INTELIGENTE /
+                2026</span><span>La tecnología aporta herramientas. El ingeniero aporta criterio.</span></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
