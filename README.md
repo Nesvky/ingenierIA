@@ -1,24 +1,17 @@
-# Ingeniería Inteligente — IA aplicada a la Ingeniería Civil
+# Ingeniería Inteligente — apoyo visual para exposición
 
-Proyecto estático para GitHub Pages. Incluye cinco páginas HTML, una hoja CSS y un archivo JavaScript.
+Sitio estático para GitHub Pages. La estructura está organizada según la guía de exposición de Doxel AI:
+- Integrante 1: contexto y tecnologías.
+- Integrante 2: funcionamiento en seis pasos y caso Kaiser Permanente Viewridge.
+- Integrante 3: ejemplo didáctico, aplicaciones, limitaciones y comparación Buildots–Intel.
 
-## Archivos
-- `index.html`: portada y presentación del tema.
-- `fundamentos.html`: Machine Learning, visión artificial, VSLAM y BIM.
-- `aplicaciones.html`: aplicaciones potenciales y limitaciones en ingeniería civil.
-- `control-sat.html`: caso Doxel + Kaiser Permanente Viewridge.
-- `conclusion.html`: ejemplo numérico interactivo, caso Buildots + Intel, conclusiones y fuentes.
-- `css/styles.css`: diseño adaptable.
-- `js/main.js`: interacciones y calculadora.
+## Publicación
+Sube el contenido de esta carpeta a la raíz del repositorio GitHub Pages (no incluyas la carpeta `.git` de ningún ZIP).
 
-## Publicar en GitHub Pages
-1. Mantén la estructura de carpetas.
-2. Reemplaza los archivos homónimos del repositorio.
-3. Confirma los cambios en la rama que publica GitHub Pages (normalmente `main`).
-4. Espera a que termine el despliegue de GitHub Pages.
+## Imágenes y fuentes
+- Las imágenes del edificio Viewridge y la visualización del escaneo se muestran desde la ficha PDF oficial del caso Doxel, embebida en `control-sat.html`.
+- Se usa una ilustración de captura de obra del sitio oficial de Doxel en `index.html`.
+- Resultados y contexto del caso: ficha Doxel Kaiser Permanente Viewridge.
+- La página incluye aclaraciones para no confundir los resultados reportados con garantías ni con precisión de reconocimiento de imágenes.
 
-## Dependencias externas
-Bootstrap 5.3.3, Bootstrap Icons y Google Fonts se cargan desde CDN. Se necesita conexión a internet para que aparezcan.
-
-## Nota académica
-Los resultados numéricos de Doxel y Buildots se atribuyen explícitamente a sus respectivos casos de estudio empresariales. El ejemplo de tubería es hipotético. No se atribuye a Doxel una arquitectura neuronal específica que no esté documentada públicamente.
+El PDF oficial se carga desde el servidor de Doxel; requiere conexión a internet para visualizarse.

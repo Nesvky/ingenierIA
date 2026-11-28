@@ -7,31 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Módulo interactivo de fundamentos.
   const processData = [
-    {
-      title: "Modelo BIM y cronograma",
-      text: "Se dispone del modelo digital del proyecto y del plan de trabajo que define qué elementos y actividades deberían estar ejecutados en una fecha determinada.",
-      output: "Una referencia para comparar el avance real."
-    },
-    {
-      title: "Captura de la realidad",
-      text: "Cámaras, recorridos 360° y escáneres registran el estado físico de la obra. La calidad de la captura condiciona el análisis posterior.",
-      output: "Imágenes y datos espaciales del estado observado."
-    },
-    {
-      title: "Ubicación y análisis visual",
-      text: "La localización espacial relaciona la captura con el entorno del proyecto. La visión artificial y el aprendizaje automático ayudan a reconocer elementos y etapas visibles.",
-      output: "Capturas ubicadas y elementos o actividades reconocidos."
-    },
-    {
-      title: "Comparación con el plan",
-      text: "La información detectada se contrasta con el modelo y el cronograma para estimar cantidades ejecutadas e identificar diferencias.",
-      output: "Indicadores de avance y posibles desviaciones."
-    },
-    {
-      title: "Decisión de ingeniería",
-      text: "El equipo revisa los resultados, valida las alertas y decide si debe ajustar recursos, secuencias, inspecciones o medidas correctivas.",
-      output: "Información para apoyar decisiones; la responsabilidad sigue siendo profesional."
-    }
+    { title: "Modelo BIM y cronograma", text: "Se incorpora el modelo digital y el plan de trabajo. Ambos indican qué elementos y actividades deberían estar ejecutados.", output: "Referencia digital para comparar la obra." },
+    { title: "Captura de la obra", text: "Se realiza un recorrido con cámara 360°. En el caso Kaiser, Doxel reportó monitoreo diario con cámaras HD y escáneres láser.", output: "Imágenes y datos del estado físico observado." },
+    { title: "Análisis de imágenes", text: "La visión artificial y el aprendizaje automático reconocen elementos visibles y sus etapas de construcción.", output: "Elementos y etapas identificados en la captura." },
+    { title: "Ubicación espacial · VSLAM", text: "La tecnología VSLAM de Doxel estima la posición de la cámara y relaciona las imágenes con el espacio del modelo BIM.", output: "Capturas ubicadas dentro del proyecto." },
+    { title: "Comparación del avance", text: "Las cantidades y etapas identificadas se contrastan con el BIM y el cronograma para encontrar lo instalado, lo pendiente y las desviaciones.", output: "Avance real frente al avance previsto." },
+    { title: "Informes y decisiones", text: "El equipo recibe cantidades, porcentajes, productividad y alertas. Los profesionales revisan la información y deciden qué hacer.", output: "Información para apoyar decisiones de ingeniería." }
   ];
   const tabs = document.querySelectorAll(".process-tab");
   if (tabs.length) {
